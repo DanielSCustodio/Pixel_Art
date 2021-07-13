@@ -1,0 +1,66 @@
+/* Backgorund gradient gerado a partir do site: https://cssgradient.io/*/
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(222, 73, 213, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.color {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: solid 1px black;
+  margin-right: 2px;
+  border-radius: 50%;
+}
+
+.pixel {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-bottom: -2px;
+  background-color: white;
+  border: solid 1px black;
+}
+
+#pixel-board {
+  display: inline-block;
+}
+
+table {
+  border-spacing: 0;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.container {
+  display: table;
+  margin: auto;
+  text-align: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(222, 73, 213, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  padding: 50px;
+  border: solid 1px white;
+  border-radius: 20px;
+  box-shadow: 2px 1px 1px 1px seashell;
+}
+
+.title {
+  color: white;
+}
+
+.size-board{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.input-grid{
+	font-size: 17px;
+	padding: 5px;
+  border-radius: 10px;
+	margin-right: 20px;
+}

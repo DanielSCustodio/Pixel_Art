@@ -9,7 +9,7 @@ const btnVqv = document.getElementById('generate-board');
 function createPallete() {
   const color = ['black'];
 
-  for (let index = 0; index < 10 ; index += 1) {
+  for (let index = 0; index < 5; index += 1) {
     const red = Math.floor(Math.random() * 255);
     const blue = Math.floor(Math.random() * 255);
     const green = Math.floor(Math.random() * 255);
@@ -77,7 +77,7 @@ function clear() {
   for (let index = 0; index < pixel.length; index += 1) {
     pixel[index].style.background = 'white';
   }
-}button.addEventListener('click', clear);
+} button.addEventListener('click', clear);
 
 function CreateGrid() {
   let valueInput = inputVqv.value;
@@ -102,7 +102,7 @@ function CreateGrid() {
     table.append(rows);
   }
   divGrid.appendChild(table);
-}btnVqv.addEventListener('click', CreateGrid);
+} btnVqv.addEventListener('click', CreateGrid);
 
 grid();
 createPallete();

@@ -3,3 +3,5 @@ Projeto desenvolvido na Trybe. O usuário pode desenhar a partir de uma tela de 
 
 * Manipulação do DOM
 * Manipulação do Javascript
+## Executando aplicação
+* Basta rodar no seu servidor local.
